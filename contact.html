@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Mofort Paper IBC</title>
+<meta name="description" content="Contact Mofort Paper IBC - Manager Wang, WhatsApp and email inquiry.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        brand: { DEFAULT: '#0b6b5f', dark: '#0a1c1b', ink: '#122a2a' },
+        copper: '#c47b3d'
+      },
+      fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] }
+    }
+  }
+};
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; }
+</style>
+</head>
+<body class="bg-white text-brand-dark antialiased">
+
+<header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur text-white">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-6">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/images/logo-mofort-white.svg" alt="Mofort logo" class="h-10 w-auto bg-white rounded-lg p-1">
+      <span class="font-extrabold tracking-wide">MOFORT <span class="text-copper">PAPER IBC</span></span>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <a href="index.html" class="hover:text-copper">Home</a>
+      <a href="products.html" class="hover:text-copper">Products</a>
+      <a href="technology.html" class="hover:text-copper">Technology</a>
+      <a href="cases.html" class="hover:text-copper">Applications</a>
+      <a href="contact.html" class="hover:text-copper">Contact</a>
+    </nav>
+    <a href="https://wa.me/8615866807268" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white text-sm font-semibold px-4 py-2 rounded-lg">
+      <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm4-5.3c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.3-2.9c-.3-.4 0-.6.2-.8l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.7 4.3 3.8 1.6.7 2.2.6 2.6.5.4-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+  <nav class="md:hidden flex items-center justify-center gap-5 text-xs font-semibold pb-3">
+    <a href="index.html">Home</a><a href="products.html">Products</a><a href="technology.html">Tech</a><a href="cases.html">Cases</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="bg-brand-dark text-white">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <h1 class="text-3xl md:text-5xl font-extrabold">Contact Us</h1>
+    <p class="text-white/70 mt-3 max-w-2xl">We reply within one working day with datasheets, drawings and a tailored packing plan.</p>
+  </div>
+</section>
+
+<section class="py-16">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="text-2xl font-extrabold mb-5">Talk to us</h2>
+      <div class="space-y-4 text-sm">
+        <div class="rounded-xl border border-brand-dark/10 p-5"><b class="text-brand">Manager Wang</b><p class="text-brand-dark/60 mt-1">Sales &amp; technical contact</p></div>
+        <a href="tel:+8615866807268" class="block rounded-xl border border-brand-dark/10 p-5 hover:border-brand"><b class="text-brand">Phone</b><p class="text-brand-dark/60 mt-1">{phone1}</p></a>
+        <a href="tel:+8615963287268" class="block rounded-xl border border-brand-dark/10 p-5 hover:border-brand"><b class="text-brand">Phone (alt)</b><p class="text-brand-dark/60 mt-1">{phone2}</p></a>
+        <a href="mailto:{email}" class="block rounded-xl border border-brand-dark/10 p-5 hover:border-brand"><b class="text-brand">Email</b><p class="text-brand-dark/60 mt-1">{email}</p></a>
+        <div class="rounded-xl border border-brand-dark/10 p-5"><b class="text-brand">Factory</b><p class="text-brand-dark/60 mt-1">Qingdao Tengcheng Packaging Co., Ltd.<br>No.497 Huai She He 1st Rd, Tongji Sub-district, Jimo District, Qingdao, Shandong, China</p></div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-2xl font-extrabold mb-5">Request a quote</h2>
+      <form action="mailto:{email}" method="post" enctype="text/plain" class="space-y-4">
+        <div class="grid grid-cols-2 gap-4">
+          <input name="name" required placeholder="Your name / company" class="w-full border border-brand-dark/20 rounded-lg px-4 py-3 text-sm">
+          <input name="email" type="email" required placeholder="Work email" class="w-full border border-brand-dark/20 rounded-lg px-4 py-3 text-sm">
+        </div>
+        <input name="product" placeholder="Product interest (e.g. IBC-7S 1000L, food grade)" class="w-full border border-brand-dark/20 rounded-lg px-4 py-3 text-sm">
+        <textarea name="message" rows="5" placeholder="Application, liquid density, stacking height, target market..." class="w-full border border-brand-dark/20 rounded-lg px-4 py-3 text-sm"></textarea>
+        <button type="submit" class="w-full bg-copper hover:bg-amber-400 text-white font-semibold py-3 rounded-lg">Send inquiry by email</button>
+      </form>
+      <a href="{wa}" target="_blank" rel="noopener" class="mt-4 flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-semibold py-3 rounded-lg">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm4-5.3c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.3-2.9c-.3-.4 0-.6.2-.8l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.7 4.3 3.8 1.6.7 2.2.6 2.6.5.4-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1z"/></svg>
+        Chat on WhatsApp
+      </a>
+      <p class="text-xs text-brand-dark/50 mt-4">Note: the email form opens your mail client. For the fastest reply, WhatsApp or email us directly with your liquid density and volume.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="bg-brand-dark text-white/70">
+  <div class="max-w-6xl mx-auto px-4 py-12 grid gap-8 md:grid-cols-4 text-sm">
+    <div>
+      <img src="assets/images/logo-mofort-white.svg" alt="Mofort" class="h-9 w-auto bg-white rounded-lg p-1 mb-3">
+      <p class="text-white/60">Paper IBC &amp; heavy-duty corrugated packaging made in Qingdao, China.</p>
+    </div>
+    <div>
+      <h4 class="text-white font-semibold mb-3">Products</h4>
+      <a class="block py-1 hover:text-copper" href="products.html#ibc">1000L Paper IBC Series</a>
+      <a class="block py-1 hover:text-copper" href="products.html#box">1410×1060 Heavy-Duty Box</a>
+      <a class="block py-1 hover:text-copper" href="products.html#options">Liners &amp; Options</a>
+    </div>
+    <div>
+      <h4 class="text-white font-semibold mb-3">Company</h4>
+      <a class="block py-1 hover:text-copper" href="technology.html">Technology &amp; Certifications</a>
+      <a class="block py-1 hover:text-copper" href="cases.html">Application Cases</a>
+      <a class="block py-1 hover:text-copper" href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4 class="text-white font-semibold mb-3">Contact</h4>
+      <p class="py-1">Manager Wang</p>
+      <a class="block py-1 hover:text-copper" href="tel:+8615866807268">+86 158 6680 7268</a>
+      <a class="block py-1 hover:text-copper" href="tel:+8615963287268">+86 159 6328 7268</a>
+      <a class="block py-1 hover:text-copper" href="mailto:tengchengibc@gmail.com">tengchengibc@gmail.com</a>
+    </div>
+  </div>
+  <div class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-4 text-xs text-white/40 flex flex-wrap justify-between gap-2">
+      <span>© 2026 Qingdao Tengcheng Packaging Co., Ltd. (Mofort). All rights reserved.</span>
+      <span>ISTA 3E certified · CNAS L21623</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
